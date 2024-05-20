@@ -1,0 +1,278 @@
+@font-face {
+  font-family: 'Times';
+  src: url('fontes/JMH\ Typewriter.otf') format('opentype'),
+  url('fontes/JMH\ Typewriter.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  background-color: rgba(255, 223, 234);
+  margin: 0px;
+  padding: 0px;
+}
+
+body> main> section.section-index {
+  background-color: #99A993;
+}
+
+body> main> .section-produtos, .section-produto, .section-marketing-olfativo{
+  background-color: rgba(255, 223, 234);
+}
+
+body> main> .section-marketing-olfativo {
+  background-image: url('../img/img-marketing-olfativo.jpeg');
+  background-repeat: round;
+  background-attachment: fixed;
+  background-size: contain;
+}
+
+nav {
+  background-color: #C46D8D;
+}
+
+.content {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.align-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+
+.align-img {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.green-color {
+  color: #3E5650;
+}
+
+h4, h3, h2, h1, a {
+  color: #fff;
+  font-family: 'Times';
+}
+
+a {
+  text-decoration: none;
+}
+
+i {
+  font-size: x-large !important;
+  color: rgb(255, 255, 255, 0.5);
+}
+
+.align-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.button-style {
+  background-color: rgb(255, 255, 255, 0.3);
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.a-style {
+  padding: 20px 20px 20px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.a-style-voltar {
+  padding: 10px 10px 10px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.img-logo {
+  height: 200px;
+}
+
+.img-logo-nav {
+  height: 100px;
+}
+
+.img-whatsapp {
+  height: 50px;
+  width: 50px;
+}
+
+.align-img-whatsapp {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 20px;
+}
+
+.m-0 {
+  margin: 0px;
+}
+
+.m-5 {
+  margin: 5px;
+}
+
+.m-10 {
+  margin: 10px;
+}
+
+.m-40 {
+  margin: 40px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.button-voltar {
+  border-radius: 10px;
+  width: 100px;
+  margin: 20px;
+}
+
+.color-purple {
+  background-color: #C46D8D;
+}
+
+.text-center {
+  text-align: center
+}
+
+/* Estilo da pagina de produtos */
+.section-produtos {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.content-produtos {
+  display: flex;
+  flex-direction: column;
+}
+
+.div-produtos {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 400px;
+}
+
+.style-produtos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 10px;
+  border: solid 2px rgba(207, 202, 196, 255);
+  padding: 15px;
+  margin: 20px;
+}
+
+.img-produtos {
+  height: 150px;
+  border-radius: 10px;
+}
+
+/* Estilo da pagina do produto */
+.section-produto {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.content-produto {
+  display: flex;
+  flex-direction: column;
+}
+
+.div-produto {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: start;
+}
+
+.align-descricao-produto {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.align-img-produto {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.img-produto {
+  width: 300px;
+  height: 400px;
+}
+
+.style-h3-produto {
+  padding: 10px 20px 10px 20px;
+  border-radius: 30px;
+  background-color: #C46D8D;
+  width: fit-content;
+}
+
+.style-h1-produto {
+  font-size: 30px;
+  font-family: math;
+}
+
+.descricao-h1 {
+  color: #3E5650 !important;
+  font-family: math;
+  font-size: 30px;
+}
+
+.descricao-p {
+  color: #99A993;
+}
+
+div.div-produto> div> h3 {
+  color: rgb(0, 0, 0, 0.8);
+}
+
+div.div-produto> div> h1 {
+  color: black;
+}
+
+/* Estilo da pagina do marketing olfativo */
+.section-marketing-olfativo {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.content-marketing-olfativo {
+  display: flex;
+  flex-direction: column;
+}
